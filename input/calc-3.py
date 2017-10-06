@@ -1,5 +1,5 @@
 """
-nur deziamlwerte akzeptieren, dann addieren
+nur dezimalwerte akzeptieren, dann addieren
 """
 while True:
     a = input("bitte ersten wert eingeben: ")
