@@ -36,6 +36,19 @@ Was heisst das da oben ?
   >>> x("gib etwas ein:")
   gib etwas ein:4
   '4'
+  
+``3`` ist der eingegebene Text.
+
+``.__class__`` in Python Objekten steht die Klasse des Objektes in ``__class__``.
+  Ein Objekt enthält Daten und Prozeduren um darauf zuzugreifen. 
+  
+``<class 'str'>`` ist der Wert der in ``__class__`` steht.
+
+In python kann man sowas zusammenfassen: ``input().__class__``.
+  Hier wird ``input()`` aufgerufen. ``input()`` gibt den eingegebenen Wert zurück.
+  ``.__class__`` führt dann zur Ausgabe des Wertes in dem Attribut ``.__class__`` 
+  des eingegebenen Wertes.
+  
 
 Experimente
 -----------
