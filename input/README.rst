@@ -37,3 +37,33 @@ Was heisst das da oben ?
   gib etwas ein:4
   '4'
 
+Experimente
+-----------
+
+calc-1.py
+
+  Simpler Start. Ignorante Addition, ohne Rücksicht darauf ob es Zahlen/Integer oder Strings sind.
+
+calc-2.py
+
+  Die eingegebenen Werte in Integer Umwandeln und dann addieren.
+
+calc-3.py
+
+  Nur Zahleneingabe erlauben.
+
+calc-4.py
+
+  Nur Zahleneingabe erlauben. Den Code umbauen.
+
+calc-5.py
+
+  Kommandozeilen Editor hinzufügen.
+
+calc-6.py
+
+  Python selber rechnen lassen.
+
+calc-7.py
+
+  Auch mathematische Funktion, sqrt, etc erlauben.
