@@ -58,7 +58,6 @@ Wir machen uns einen Verzeichnisbaum zum ausprobieren ... gleich mit python
 
 >>>
 import pathlib
-
 # alles mit / am Ende is ein Verzeichnis
 testdirs = (
     "testdir/",
