@@ -20,7 +20,7 @@ for entry in os.listdir(DIR):
 print("\nmit objektorientiertem Modul: pathlib")
 import pathlib
 
-# ein Objekt vom Erzeugen 
+# ein Objekt vom Verzeichnis/Pfad erzeugen 
 dir = pathlib.Path(DIR)
 # und alle Einträge ausgeben
 for entry in dir.iterdir():
