@@ -24,9 +24,10 @@ import pathlib
 dir = pathlib.Path(DIR)
 # und alle Einträge ausgeben
 for entry in dir.iterdir():
+    # "entry" ist ein Objekt vom Typ "Path" und weisz selber, dass ob es ein Verzeichnis ist"
     if entry.is_dir():
-        print("DIR:"+str(entry))
         # entry ist kein String sondern ein Path und muss zum String gemacht werden
+        print("DIR:"+str(entry))
     else:
         print(entry)
 
