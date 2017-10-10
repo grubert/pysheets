@@ -50,3 +50,41 @@ Fragen.
 
 Bei ``os.listdir`` muss man den Pfad als Zeichenkette/String übergeben, das heisst wenn ich die Einträge in einem Unterverzeichnis haben will muss ich den Namen
 des darüberliegenden berücksichtigen, siehe os.path.join etc.
+
+Code
+----
+
+Wir machen uns einen Verzeichnisbaum zum ausprobieren ... gleich mit python
+
+>>>
+import pathlib
+
+# alles mit / am Ende is ein Verzeichnis
+testdirs = (
+    "testdir/",
+    "testdir/index.txt",
+    "testdir/doc/",
+    "testdir/doc/index.txt",
+    "testdir/doc/liesmich.txt",
+    "testdir/doc/mans/",
+    "testdir/doc/mans/liesmich.txt",
+    "testdir/py/",
+    "testdir/py/index.txt",
+    "testdir/py/nothing.py",
+    "testdir/py/todo.py",
+    "testdir/txt/",
+    "testdir/txt/index.txt",
+    "testdir/txt/index.txt",
+    )
+#
+for e in testdirs:
+    p = pathlib.Path(e)
+    if p.exists():
+        continue
+    if e.endswith("/"):
+        p.mkdir()
+    else:
+        p.touch()
+
+
+muss ja nicht gleich jeder verstehen.    
